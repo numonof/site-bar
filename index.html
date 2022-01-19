@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sidebar menu</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.sidebarbtn').click(function(){
+                $('.navbar').toggleClass('active');
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="brend">
+            <a href="#" class="logo"></a>
+        </div>
+        <nav class="navbar-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">aboute</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">portfolio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+            </ul>
+        </nav>
+        <button class=" sidebarbtn">
+            <span></span>
+        </button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
